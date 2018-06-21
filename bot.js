@@ -284,7 +284,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-     if (message.content === "*bot") {
+     if (message.content === "+bot") {
             if(!message.channel.guild) return message.reply('** This command only for servers **');
      let embed = new Discord.RichEmbed()
   .setColor('RANDOM')
