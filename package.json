@@ -1,10 +1,10 @@
 {
-  "name": "XD",
+  "name": "gad7",
   "version": "2.1.0",
-  "description": "XDbot",
-  "main": "music.js",
+  "description": "gad7bot",
+  "main": "index.js",
   "scripts": {
-    "test": "node music.js"
+    "test": "node index.js"
   },
   "dependencies": {
     "discord.js": "^11.3.2",
