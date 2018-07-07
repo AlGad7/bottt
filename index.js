@@ -171,4 +171,30 @@ client.on("message", (message) => {
         });
     }
 });
+
+
+
+//restart
+  client.on('message',async message => {
+    if(message.content.startsWith(prefix $ "restart")) {
+        if(message.author.id !== "228174175007801354") return message.reply('You aren\'t the bot owner.');
+        message.channel.send('**Restarting.**').then(msg => {
+            setTimeout(() => {
+               msg.edit('**Restarting..**');
+            },1000);
+            setTimeout(() => {
+               msg.edit('**Restarting...**');
+            },2000);
+        });
+        console.log(`${message.author.tag} [ ${message.author.id} ] has restarted the bot.`);
+        console.log(`Restarting..`);
+        setTimeout(() => {
+            client.destroy();
+            client.login('NDU5NDc2NjQ4MDkwMTQwNjcy.DhsxBg.sinkP3tyZTQzNhs7LT5X3Lvwvzg');
+        },3000);
+    }
+});
+
+
+
 client.login("NDU5Mjc2MTk5MjY1NTY2NzIw.Dg42RA.bAp0AL9do6t4QRrFaxg-ti8tzZo");
