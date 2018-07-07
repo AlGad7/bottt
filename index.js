@@ -40,7 +40,6 @@ if (message.content === '$help') {
                 .addField("**TWEET**", "**الاستخدام** ``$tweet <الرساله>``")
                 .addField("**NO INVITE LINKE**","تم اضافة خاصية منع الانفيتات ")
                 .addField("**LOGIN**" , " تم اضافة خاصية التفعيل لطلب تشغيلها في السيرفر كلم المبيرمجين ")
-                .addField("**Music**" , "$play (Name) (playlistname) ")
                 .setColor('RANDOM')
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
