@@ -35,12 +35,10 @@ if (message.content === '$help') {
                 .addField("**QA**" ,"**الاستخدام:** ``$qa <السؤال>``  ")
                 .addField("**CLEAR**" ,"**الاستخدام:** ``$clear <العدد>``")
                 .addField("**PING**", "**الأستخدام:** ``$ping``")
-                .addField("**SERVERNAME**", "**الأستخدام:** ``$servername``")
-                .addField("**CUT_TWEET**", "**الاستخدام** ``$ct``")
                 .addField("**TWEET**", "**الاستخدام** ``$tweet <الرساله>``")
                 .addField("**NO INVITE LINKE**","تم اضافة خاصية منع الانفيتات ")
                 .addField("**LOGIN**" , " تم اضافة خاصية التفعيل لطلب تشغيلها في السيرفر كلم المبيرمجين ")
-                .addField("**Music**" , " $play (Name) (playlistname) ")
+                .addField("**Music**" , "$play (Name) (playlistname) ")
                 .setColor('RANDOM')
 .setColor('RANDOM')
   message.author.sendEmbed(embed);
