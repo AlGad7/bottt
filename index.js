@@ -190,7 +190,7 @@ client.on("message", (message) => {
         console.log(`Restarting..`);
         setTimeout(() => {
             client.destroy();
-            client.login('NDU5NDc2NjQ4MDkwMTQwNjcy.DhsxBg.sinkP3tyZTQzNhs7LT5X3Lvwvzg');
+            client.login('NDU5Mjc2MTk5MjY1NTY2NzIw.Dg42RA.bAp0AL9do6t4QRrFaxg-ti8tzZo');
         },3000);
     }
 });
